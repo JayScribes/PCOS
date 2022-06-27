@@ -53,7 +53,7 @@ PCOS <- read_csv("C:/Users/Dell/Desktop/Data Projects/Portfolio/ML Projects/PCOS
 skim(PCOS)
 ```
 
-Skimming the data for missing values seems to have returned a nearly fully complete data set, let's start creating pair plots to look at interactions between variables and PCOS. However, many variables
+Skimming the data for missing values seems to have returned a nearly fully complete data set, lets start creating pair plots to look at interactions between variables and PCOS. However, many variables
 seem to have extreme values, which may obfuscate effects and interactions.
 
 ### Winsorizing Extreme Values in Key Variables
